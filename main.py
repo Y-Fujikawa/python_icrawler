@@ -3,5 +3,5 @@ import sys
 
 args = sys.argv
 
-google_crawler = GoogleImageCrawler(storage={'root_dir': 'imgs'})
+google_crawler = GoogleImageCrawler(storage={'root_dir': 'images'})
 google_crawler.crawl(keyword = args[1], max_num = 100)
